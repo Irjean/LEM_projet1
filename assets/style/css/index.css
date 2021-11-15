@@ -68,4 +68,50 @@ header .search-bar img:hover {
   cursor: pointer;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .addy-pres {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 80px;
+}
+main .addy-pres div {
+  margin-left: 20px;
+}
+main .addy-pres div p {
+  width: 50%;
+  color: gray;
+  margin-top: 20px;
+}
+main .title-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+main .title-banner .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+main .title-banner .title h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+main .title-banner .title h3 {
+  color: gray;
+  font-size: 1.6rem;
+  width: 70%;
+}
+main .title-banner img {
+  width: 100%;
+  margin: 50px 0;
+}
+
 /*# sourceMappingURL=index.css.map */
