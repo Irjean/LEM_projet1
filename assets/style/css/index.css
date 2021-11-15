@@ -106,8 +106,9 @@ main .title-banner .title h1 {
 }
 main .title-banner .title h3 {
   color: gray;
-  font-size: 1.6rem;
-  width: 70%;
+  font-size: 1.8rem;
+  width: 90%;
+  word-spacing: 15px;
 }
 main .title-banner img {
   width: 100%;
