@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+$base-pink: #e55e5e;
+$base-grey: #d7d7d7;
+$twitter: #1da1f2;
+$facebook: #3e80db;
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $base-pink;
+    height: 15vh;
+    padding: 0 20px;
+    color: white;
+
+    .inner-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 35%;
+
+        .social-media{
+            font-size: 1.8rem;
+
+            .fa-twitter{
+                color: $twitter;
+                cursor: pointer;
+                margin-right: 30px;
+            }
+
+            .fa-facebook-square{
+                color: $facebook;
+                cursor: pointer;
+            }
+        }
+
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                font-size: 1.2rem;
+                list-style: none;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+        }
+
+        .stick{
+            height: 40px;
+            width: 1px;
+            background-color: white;
+            border: none;
+        }
+    }
+
+    .search-bar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 6px 15px;
+
+        input{
+            background-color: $base-pink;
+            border: none;
+            color: white;
+        }
+
+        img{
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

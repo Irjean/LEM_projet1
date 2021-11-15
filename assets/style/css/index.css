@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "lato";
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e55e5e;
+  height: 15vh;
+  padding: 0 20px;
+  color: white;
+}
+header .inner-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+header .inner-container .social-media {
+  font-size: 1.8rem;
+}
+header .inner-container .social-media .fa-twitter {
+  color: #1da1f2;
+  cursor: pointer;
+  margin-right: 30px;
+}
+header .inner-container .social-media .fa-facebook-square {
+  color: #3e80db;
+  cursor: pointer;
+}
+header .inner-container ul {
+  display: flex;
+  flex-direction: row;
+}
+header .inner-container ul li {
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 0 5px;
+  cursor: pointer;
+}
+header .inner-container .stick {
+  height: 40px;
+  width: 1px;
+  background-color: white;
+  border: none;
+}
+header .search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 6px 15px;
+}
+header .search-bar input {
+  background-color: #e55e5e;
+  border: none;
+  color: white;
+}
+header .search-bar img:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
