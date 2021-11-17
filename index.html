@@ -11,7 +11,33 @@
         <title>Document</title>
     </head>
     <body>
+        <div class="mobile-nav">
+            <div class="cross">
+
+            </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Article</li>
+                    <li>Pricing</li>
+                    <li>Contact</li>
+                </ul>
+                <div class="search-bar">
+                    <input type="search" placeholder="Rechercher ...">
+                    <img src="./assets/images/loupe.png" alt="">
+                </div>
+            </nav>
+        </div>
+        
         <header>
+            <div class="mobile-header">
+                <img src="./assets/images/logo.png" alt="">
+                <div class="menu-burger">
+                    <div class="burger-stick"></div>
+                    <div class="burger-stick"></div>
+                    <div class="burger-stick"></div>
+                </div>
+            </div>
             <div class="inner-container">
                 <img src="./assets/images/logo.png" alt="">
                 <div class="stick"></div>
@@ -58,8 +84,10 @@
                     <img class="arrow-right" src="./assets/images/arrow-right.png" alt="">
                 </section>
                 <section class="article-pay">
+                    <div class="shadow"></div>
                     <p>When designing for accessibility, there are four key areas of disability to consider: visual, hearing, mobility and cognition.</p>
                     <p>Visual issues can range from an inability to distinguish colors to no vision at all.</p>
+                    
                     <ul>
                         <li>Ensure a minimum <a href="#">contrast ratio threshold</a> is met for text content.</li>
                         <li>Avoid communicating information <a href="#">using solely color</a> and ensure that all text is <a href="#">resizable</a>.</li>
@@ -70,15 +98,51 @@
                         <li>Make the content understandable using <a href="#">text alternatives</a> for all content that is not strictly text.</li>
                         <li>Ensure you test that your UI components are still functional <a href="#">without sound</a>.</li>
                     </ul>
+                    
                 </section>
                 <button class="pay-button">Read more for $2,00/month</button>
             </article>
         </main>
         <footer>
-            <h3>More recommandations</h3>
-            <article>
-                <section>
-                    
+            <article class="recommandations">
+                <h3>More recommandations</h3>
+                <section class="card-container">
+                    <article class="card">
+                        <img src="./assets/images/article1.png" alt="">
+                        <span>More from Addy Osmani</span>
+                        <h3>Offline Storage From Progressive Web Apps</h3>
+                        <div class="card-author-container">
+                            <img src="./assets/images/addyosmani-small.png" alt="">
+                            <div class="card-author">
+                                <h4>Addy Osmani</h4>
+                                <span>6 minutes read</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./assets/images/article2.png" alt="">
+                        <span>Also tagged Accessibility</span>
+                        <h3>Color My World: The Science of Color in UX</h3>
+                        <div class="card-author-container">
+                            <img src="./assets/images/carolynherman-small.png" alt="">
+                            <div class="card-author">
+                                <h4>Addy Osmani</h4>
+                                <span>6 minutes read</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <img src="./assets/images/article3.png" alt="">
+                        <span>Also tagged Accessibility</span>
+                        <h3>Implementing Accessibility for a Custom Control in</h3>
+                        <div class="card-author-container">
+                            <img src="./assets/images/coreyfloyd-small.png" alt="">
+                            <div class="card-author">
+                                <h4>Addy Osmani</h4>
+                                <span>6 minutes read</span>
+                            </div>
+                        </div>
+                    </article>
                 </section>
             </article>
         </footer>

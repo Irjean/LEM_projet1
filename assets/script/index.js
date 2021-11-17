@@ -4,7 +4,10 @@ const tutoVideo = document.querySelector(".tuto-video");
 const tutoTitle = document.querySelector(".tuto-title");
 const payButton = document.querySelector(".pay-button");
 const articlePay = document.querySelector(".article-pay");
-
+const shadow = document.querySelector(".shadow");
+const menuBurger = document.querySelector(".menu-burger");
+const cross = document.querySelector(".cross");
+const mobileNav = document.querySelector(".mobile-nav");
 const videos = [{
     source : "https://www.youtube.com/embed/YEbtvKPvTYE",
     title : "More DevTool Tips in the new Totally Tooling Tips s03e07"
@@ -46,4 +49,13 @@ function scrollVideos(num){
 
 payButton.addEventListener("click", () => {
     articlePay.style.height = "inherit";
-})
+    shadow.style.display = "none";
+});
+
+menuBurger.addEventListener("click", () => {
+    mobileNav.classList.add("show-nav");
+});
+
+cross.addEventListener("click", () => {
+    mobileNav.classList.remove("show-nav");
+});
