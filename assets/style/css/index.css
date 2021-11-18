@@ -161,7 +161,7 @@ main .article-content .article-pay {
   height: 200px;
   overflow-y: hidden;
   box-shadow: inset 0px -100px 30px -30px #fff;
-  transition: 1s;
+  transition: 0.3s;
 }
 main .article-content .article-pay .shadow {
   position: absolute;
