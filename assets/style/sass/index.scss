@@ -90,6 +90,15 @@ header{
         background-color: $base-pink;
         border: none;
         color: white;
+
+        &::placeholder{
+            color: white;
+            opacity: 1;
+        }
+    
+        &:focus{
+            outline: none;
+        }
     }
 
     img{
@@ -367,6 +376,11 @@ footer{
 
             
         }
+    }
+
+    .search-bar{
+        width: 250px;
+        justify-content: space-between;
     }
 
     .mobile-nav{

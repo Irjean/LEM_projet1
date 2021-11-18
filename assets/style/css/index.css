@@ -77,6 +77,13 @@ header .stick {
   border: none;
   color: white;
 }
+.search-bar input::placeholder {
+  color: white;
+  opacity: 1;
+}
+.search-bar input:focus {
+  outline: none;
+}
 .search-bar img:hover {
   cursor: pointer;
 }
@@ -304,6 +311,11 @@ footer .recommandations .card-container .card .card-author-container .card-autho
     background-color: white;
     width: 100%;
     height: 3px;
+  }
+
+  .search-bar {
+    width: 250px;
+    justify-content: space-between;
   }
 
   .mobile-nav {
